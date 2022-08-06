@@ -1,0 +1,22 @@
+{
+  "name": "expo-unified-storage",
+  "version": "1.0.0",
+  "description": "Storage Expo module compatible with iOS/Android/Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justcallmedk/expo-unified-storage.git"
+  },
+  "author": "dk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justcallmedk/expo-unified-storage/issues"
+  },
+  "homepage": "https://github.com/justcallmedk/expo-unified-storage#readme",
+  "dependencies": {
+    "expo-secure-store": "^11.3.0"
+  }
+}
