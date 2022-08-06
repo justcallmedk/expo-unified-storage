@@ -1,6 +1,6 @@
 {
   "name": "expo-unified-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Storage Expo module compatible with iOS/Android/Web",
   "main": "index.js",
   "scripts": {
