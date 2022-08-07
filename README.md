@@ -3,7 +3,16 @@ Storage Expo module compatible with iOS/Android/Web
 
 # usage
 ```javascript
-import Storage from './components/storage/'
+//package.json
+...
+"dependencies": {
+  "expo-unified-storage": "github:justcallmedk/expo-unified-storage#master"
+}
+...
+```
+
+```javascript
+import Storage from 'expo-unified-storage'
 Storage.hello(); // 'ios/android || web hello storage!'
 await Storage.set('foo','bar');
 const myFoo = await Storage.get('foo');
